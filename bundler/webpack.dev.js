@@ -9,7 +9,8 @@ module.exports = webpackMerge(
         {
             contentBase: './dist',
             open: true,
-            host: '0.0.0.0'
+            host: '0.0.0.0',
+            useLocalIp: true
         }
     }
 )
